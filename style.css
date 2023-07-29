@@ -1,11 +1,15 @@
 * {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: auto;
+  padding: auto;
 }
 
 .navbar {
   display: flex;
+  height: 72px;
   justify-content: space-between;
+  align-items: center;
   background-color: #1f2937;
   color: white;
   padding: 16px;
@@ -16,18 +20,65 @@
   font-weight: 500;
 }
 
-.navbar {
+ul {
   display: flex;
-  height: 72px;
-  justify-content: space-around;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+}
+
+li {
+  margin: 16px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  background-color: #1f2937;
+  padding: 48px;
 }
 
-.links {
+.hero h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+  margin: 8px;
+}
+
+.hero .subheading {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 8px;
+}
+
+.hero button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.hero img {
+  max-width: 400px;
   display: flex;
-  justify-content: space-around;
+  align-items: flex-end;
 }
 
-body {
-  /* display: flex; */
+.left-hero {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.right-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
