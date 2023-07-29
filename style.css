@@ -41,6 +41,7 @@ li {
   align-items: center;
   background-color: #1f2937;
   padding: 48px 96px;
+  flex-wrap: wrap;
 }
 
 .hero h1 {
@@ -131,4 +132,20 @@ li {
   text-align: right;
   font-size: 18px;
   font-weight: 600;
+}
+
+.contact-container {
+  display: flex;
+  margin: 84px;
+  padding: 48px;
+  border-radius: 12px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 48px;
 }
