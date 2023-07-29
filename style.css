@@ -89,6 +89,7 @@ li {
   flex-wrap: wrap;
   text-align: center;
   flex-direction: column;
+  padding-bottom: 72px;
 }
 
 .strengths h2 {
@@ -111,4 +112,23 @@ li {
 
 .card img {
   max-width: 200px;
+}
+
+.about-block {
+  margin: auto;
+  padding: 100px;
+  background-color: #e5e7eb;
+}
+
+.about-block h2 {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.about-block h3 {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 600;
 }
