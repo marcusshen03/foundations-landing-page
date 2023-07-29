@@ -40,7 +40,7 @@ li {
   justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
-  padding: 48px;
+  padding: 48px 96px;
 }
 
 .hero h1 {
@@ -81,4 +81,34 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+.strengths {
+  margin: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+}
+
+.strengths h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  padding: 48px;
+  justify-content: space-between;
+}
+
+.strengths .cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  padding: 16px;
+}
+
+.card img {
+  max-width: 200px;
 }
